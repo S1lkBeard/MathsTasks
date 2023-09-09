@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Folders ignore
+target
+.idea
+.allure
+
+# Files ignore
+*.iml
+*.class
+*.lst
