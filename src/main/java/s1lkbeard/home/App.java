@@ -1,6 +1,7 @@
 package s1lkbeard.home;
 
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 import static java.lang.Math.*;
 
@@ -8,7 +9,9 @@ public class App
 {
     public static void main(String[] args )
     {
-        double x=0.5;
+        System.out.println("Введите значение аргумента x. При вводе дробного значения необходимо указывать ',':");
+        Scanner in = new Scanner(System.in);
+        double x = in.nextFloat();
 
         double task01 = (sqrt(exp(2.2 * x))) - abs(sin((PI * x)/(x + 2.0 / 3))) + 1.7;
         double task02 = sqrt(pow(pow(x, 4), 0.2) + pow(pow(x, (4 - x)), 0.2)) + log(abs(x - 20.5));
