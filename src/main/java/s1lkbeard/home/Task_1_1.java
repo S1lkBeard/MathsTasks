@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static java.lang.Math.*;
 
-public class App
+public class Task_1_1
 {
     public static void main(String[] args )
     {

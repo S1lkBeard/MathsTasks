@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 import static java.lang.Math.*;
 
-public class App_12
+public class Task_1_2
 {
     public static void main(String[] args )
     {
