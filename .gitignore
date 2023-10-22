@@ -8,7 +8,6 @@ target
 .allure
 
 # Files ignore
-header.java
 *.iml
 *.class
 *.lst

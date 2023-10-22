@@ -1,6 +1,6 @@
 package s1lkbeard.home;
 
-public class Task_1_3_3 {
+public class Task_1_3_1_3 {
     public static void main(String[] args) {
         //шаг минутной стрелки
         byte N = 5;
