@@ -20,12 +20,17 @@ public class Task_1_3_1_1 {
         byte H = in.nextByte();
 
         System.out.println();
-        System.out.println("Объем каждого сферического слоя, начиная с самого внутреннего V = 4/3.0 * PI * pow((R + (H + x)), 3) - 4/3.0 * PI * pow(R, 3) равно:");
-        for (int x = 0; x < N; x = (x + H)) {
+        System.out.println("Объем каждого сферического слоя, начиная с самого внутреннего V = 4/3.0 * PI * pow((R + (H * x)), 3) - 4/3.0 * PI * pow(R, 3) равно:");
+        for (int x = 0; x < N; x++) {
             int j = x + 1;
-            double V = 4 / 3.0 * PI * pow((R + (H + x)), 3) - 4 / 3.0 * PI * pow(R, 3);
-            System.out.print("Номер слоя " + j + ":");
-            System.out.printf(" V = %.1f %n %n", V);
+            double V = getV(R, H, j);
+            System.out.printf("Номер слоя " + j + ": V = %.1f %n %n", V);
         }
+    }
+
+    public static double getV(double R, byte H, int j) {
+        double res = 4 / 3.0 * PI * pow((R + (H * j)), 3) - 4 / 3.0 * PI * pow(R, 3);
+
+        return res;
     }
 }
