@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import static java.lang.Double.NaN;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Task_1_1Test {
+class Task_1_1Tests {
 
     @Test
     void getEq1_0_5() {

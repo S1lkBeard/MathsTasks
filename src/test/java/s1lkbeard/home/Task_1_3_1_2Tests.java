@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Task_1_3_1_2Test {
+class Task_1_3_1_2Tests {
 
     @ParameterizedTest
     @MethodSource("dataAngle")
