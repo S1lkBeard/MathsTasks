@@ -33,7 +33,7 @@ public class Task_1_4_1 {
     }
 
     public static double getRandomNumber() {
-        double x = Math.random();
+        double x = Math.random() * 10;
 
         return x;
     }
